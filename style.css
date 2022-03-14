@@ -108,12 +108,12 @@ body
 {
     margin-top: 5rem;
     display: grid;
-    /*TODO Assigning div areas to defined Cells */
+    /*TODO Assigning div areas to defined Cells ('.' defines an empty area)*/
     grid-template-areas: 
         "header header header header header"
+        ".      main   main   main   right"
         "menu   main   main   main   right"
-        "menu   main   main   main   ."
-        "menu   main   main   main   ."
+        "menu   main   main   main   right"
         "menu   footer footer footer footer";
     height: 100%;
     align-content: center;
