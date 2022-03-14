@@ -21,12 +21,12 @@ body
 .grid-container
 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: 5rem 10rem 5rem;
     height: 100%;
     align-content: center;
     column-gap: 2rem;
-    row-gap: 2rem;
+    row-gap: 3rem;
     background-color: #2196f3;
     padding: 3rem;
 }
@@ -148,3 +148,19 @@ body
     grid-area: footer;
 }
 /*! Grid Two Detail Config END */
+
+/*? Grid Three General Config */
+.grid-container3
+{
+    margin-top: 5rem;
+    display: grid;
+    /*TODO Useful for galleries or content lists/grids (goes to next row once it hits the min width)*/
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    height: 100%;
+    align-content: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    background-color: green;
+    padding: 3rem;
+}
+/*? Grid Three General Config END */
