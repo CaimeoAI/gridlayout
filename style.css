@@ -40,6 +40,7 @@ body
     border: 1px solid black;
     font-size: 2rem;
     text-align: center;
+    padding: 3rem;
 }
 /*? Grid General Config END */
 
@@ -108,10 +109,10 @@ body
     display: grid;
     grid-template-areas: 
         "header header header header header"
-        "menu main main main right"
-        "menu main main main right"
-        "menu main main main right"
-        "menu footer footer footer footer";
+        "menu   main   main   main   right"
+        "menu   main   main   main   right"
+        "menu   main   main   main   right"
+        "menu   footer footer footer footer";
     height: 100%;
     align-content: center;
     column-gap: 2rem;
