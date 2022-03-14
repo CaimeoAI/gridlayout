@@ -71,4 +71,32 @@ body
     grid-row: 8/15;
 }
 
+.item6
+{
+    grid-column: 1/2;
+    grid-row: 15/20;
+}
+
+.item7
+{
+    grid-column: 2/3;
+    grid-row: 15/20;
+}
+
+.item8
+{
+    grid-column: 3/4;
+    grid-row: 15/20;
+}
+
+.item9
+{
+    grid-column: 1/4;
+}
+
+.item10
+{
+    /*TODO row start / column start / row end / column end (span indicates how many cells it should span) */
+    grid-area: 21/1/span 10/span 3;
+}
 /*! Grid Detail Config END */
