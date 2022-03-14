@@ -22,6 +22,7 @@ body
 {
     display: grid;
     grid-template-columns: auto auto auto;
+    grid-template-rows: 5rem 10rem 5rem;
     column-gap: 2rem;
     row-gap: 2rem;
     background-color: #2196f3;
@@ -34,6 +35,5 @@ body
     border: 1px solid black;
     font-size: 2rem;
     text-align: center;
-    height: 5rem;
 }
 /*? Grid General Config END */
