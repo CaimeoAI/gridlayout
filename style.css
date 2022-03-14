@@ -21,6 +21,7 @@ body
 .grid-container
 {
     display: grid;
+    /*TODO repeat(3, auto) is same as 'auto auto auto' */
     grid-template-columns: repeat(3, auto);
     grid-template-rows: 5rem 10rem 5rem;
     height: 100%;
@@ -107,11 +108,12 @@ body
 {
     margin-top: 5rem;
     display: grid;
+    /*TODO Assigning div areas to defined Cells */
     grid-template-areas: 
         "header header header header header"
         "menu   main   main   main   right"
-        "menu   main   main   main   right"
-        "menu   main   main   main   right"
+        "menu   main   main   main   ."
+        "menu   main   main   main   ."
         "menu   footer footer footer footer";
     height: 100%;
     align-content: center;
